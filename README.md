@@ -29,7 +29,7 @@ Bu proje, GCP (Google Cloud Platform) üzerinde **Infrastructure as Code (IaC)**
 │   ├── keda-scaledobject.yaml
 │   ├── monitoring/         # Prometheus & Grafana kurulum yamlları
 │   └── istio_yamls/        # Istio manifest dosyaları
-└── README.md               # (Bu dosya)
+└── README.md               
 ```
 
 ---
