@@ -44,5 +44,11 @@ Bu proje, GCP (Google Cloud Platform) üzerinde **Infrastructure as Code (IaC)**
 - KEDA (Kubernetes-based Event Driven Autoscaler)
 - Istio (Service Mesh)
 
+## 🔐 Uzaktan Erişim
 
+´terraform apply´ komutu başarılı olup cluster ve kaynaklar oluşturulduktan sonra 
+
+gcloud container clusters get-credentials <cluster-adı> --region <bölge> --project <proje-id>
+
+komutu ile kubectl yüklü ortamınızdan bu ortama uzaktan erişim sağlayabilirsiniz.
 
