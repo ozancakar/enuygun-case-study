@@ -1,4 +1,3 @@
----
 apiVersion: networking.istio.io/v1beta1
 kind: VirtualService
 metadata:
@@ -10,9 +9,19 @@ spec:
   gateways:
     - main-gateway
   http:
+    # 1. / → /nginx'e redirect et
     - match:
         - uri:
-            prefix: /
+            exact: /
+      redirect:
+        uri: /nginx
+
+    # 2. /nginx → nginx servisine yönlendir ve URI'yi / yap (rewrite)
+    - match:
+        - uri:
+            prefix: /nginx
+      rewrite:
+        uri: /
       route:
         - destination:
             host: nginx-service.default.svc.cluster.local
