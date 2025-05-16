@@ -27,7 +27,7 @@ Bu proje, GCP (Google Cloud Platform) üzerinde **Infrastructure as Code (IaC)**
 │   ├── nginx-deployment.yaml
 │   ├── nginx-hpa.yaml
 │   ├── keda-scaledobject.yaml
-│   ├── monitoring/         # Prometheus & Grafana kurulum yamlları
+│   ├── monitoring/         # Prometheus & Grafana LoadBalancer Service yamlları
 │   └── istio_yamls/        # Istio manifest dosyaları
 └── README.md               
 ```
