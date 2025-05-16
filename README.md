@@ -22,7 +22,7 @@ Bu proje, GCP (Google Cloud Platform) üzerinde **Infrastructure as Code (IaC)**
 ```
 .
 ├── terraform/              # GKE altyapısını oluşturan Terraform dosyaları
-│   └── README.md           # Açıklayıcı dokümantasyon
+│   └── README.md           
 ├── manifests/              # Kubernetes manifest dosyaları
 │   ├── nginx-deployment.yaml
 │   ├── nginx-hpa.yaml
