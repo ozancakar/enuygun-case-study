@@ -32,9 +32,9 @@ data:
       <div class="card">
         <h2>🌐 Servisler</h2>
         <ul>
-          <li><a href="http://34.76.98.1/nginx">Nginx</a></li>
-          <li><a href="http://34.22.231.41">Grafana</a></li>
-          <li><a href="http://34.77.203.31:9090">Prometheus</a></li>
+          <li><a href="http://istio-ingress/nginx">Nginx</a></li>
+          <li><a href="http://grafana-loadbalancer">Grafana</a></li>
+          <li><a href="http://prometheus-loadbalancer:9090">Prometheus</a></li>
         </ul>
       </div>
     </body>
